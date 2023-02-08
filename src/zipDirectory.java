@@ -8,7 +8,7 @@ import java.util.zip.ZipOutputStream;
 public class zipDirectory {
     public static void main(String[] args) throws IOException {
         String currentDirectory = System.getProperty("user.dir");
-        System.out.println("Current working directory : " + currentDirectory);
+        System.out.println("Directorio base de trabajo : " + currentDirectory);
 
         File directoryToZip = new File(currentDirectory + "/src/zipOrigen/");
         File zipFile =   new File(currentDirectory + "/src/zipResultado/ArchivosComprimidos.zip");
